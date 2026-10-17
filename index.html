@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List Life Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Global Storage Error Banner -->
+  <div id="storage-error-banner" role="alert" aria-live="assertive" hidden>
+    Your changes could not be saved. Storage may be full or unavailable.
+  </div>
+
+  <main class="dashboard">
+
+    <!-- Widget 1: Greeting -->
+    <section class="widget widget--greeting" aria-label="Greeting Widget">
+      <h2 id="greeting-message">Hello</h2>
+      <p id="time-display" aria-live="polite">00:00:00</p>
+      <p id="date-display">--</p>
+    </section>
+
+    <!-- Widget 2: Focus Timer -->
+    <section class="widget widget--timer" aria-label="Focus Timer">
+      <h2>Focus Timer</h2>
+      <p id="timer-display" aria-live="polite">25:00</p>
+      <p id="timer-complete-msg" hidden>Session complete!</p>
+      <div class="timer-controls">
+        <button id="btn-start" type="button">Start</button>
+        <button id="btn-stop" type="button" disabled>Stop</button>
+        <button id="btn-reset" type="button">Reset</button>
+      </div>
+    </section>
+
+    <!-- Widget 3: Todo List -->
+    <section class="widget widget--todo" aria-label="Todo List">
+      <h2>Todo List</h2>
+      <div class="task-add-form">
+        <label for="task-input" class="sr-only">New task description</label>
+        <input
+          id="task-input"
+          type="text"
+          maxlength="200"
+          placeholder="Add a new task…"
+          aria-describedby="task-input-error"
+        >
+        <button id="btn-add-task" type="button">Add</button>
+      </div>
+      <ul id="task-list" aria-label="Task list"></ul>
+    </section>
+
+    <!-- Widget 4: Quick Links -->
+    <section class="widget widget--links" aria-label="Quick Links">
+      <h2>Quick Links</h2>
+      <div class="link-add-form">
+        <label for="link-label-input" class="sr-only">Link label</label>
+        <input
+          id="link-label-input"
+          type="text"
+          maxlength="50"
+          placeholder="Label"
+          aria-describedby="link-label-error"
+        >
+        <label for="link-url-input" class="sr-only">Link URL</label>
+        <input
+          id="link-url-input"
+          type="text"
+          maxlength="2000"
+          placeholder="https://example.com"
+          aria-describedby="link-url-error"
+        >
+        <button id="btn-add-link" type="button">Add</button>
+      </div>
+      <div id="links-panel" aria-label="Saved links"></div>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

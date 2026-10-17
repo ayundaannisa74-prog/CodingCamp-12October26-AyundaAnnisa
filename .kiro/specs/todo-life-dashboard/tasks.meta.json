@@ -1,0 +1,257 @@
+{
+  "pbtResults": {
+    "4.2 Write property tests for timer state functions": {
+      "status": "passed",
+      "lastRunTimestamp": 1792209478174
+    },
+    "6.4 Write property tests for task persistence round-trip": {
+      "status": "passed",
+      "lastRunTimestamp": 1792210537780
+    },
+    "7.4 Write property tests for link persistence round-trip": {
+      "status": "passed",
+      "lastRunTimestamp": 1792211315129
+    }
+  },
+  "executionHistory": {
+    "1. Create project file structure and HTML skeleton": [
+      {
+        "executionId": "df657553-09f1-497f-9b86-334285420599",
+        "chatSessionId": "sess_6e83608a-8e87-436f-a336-ff8c3344b537",
+        "timestamp": 1792207034215
+      },
+      {
+        "executionId": "df657553-09f1-497f-9b86-334285420599",
+        "chatSessionId": "sess_6e83608a-8e87-436f-a336-ff8c3344b537",
+        "timestamp": 1792207801665
+      }
+    ],
+    "2.1 Implement `load(key, fallback)` and `save(key, value)` inside the IIFE": [
+      {
+        "executionId": "ec445a0b-bd2b-4ee0-bbb3-b11cf0c04978",
+        "chatSessionId": "sess_4b86b0a5-4b1b-4abc-bca6-3254afdce8e5",
+        "timestamp": 1792207824359
+      },
+      {
+        "executionId": "ec445a0b-bd2b-4ee0-bbb3-b11cf0c04978",
+        "chatSessionId": "sess_4b86b0a5-4b1b-4abc-bca6-3254afdce8e5",
+        "timestamp": 1792207869352
+      }
+    ],
+    "2. Implement StorageService": [
+      {
+        "executionId": "ec445a0b-bd2b-4ee0-bbb3-b11cf0c04978",
+        "chatSessionId": "sess_4b86b0a5-4b1b-4abc-bca6-3254afdce8e5",
+        "timestamp": 1792207869761
+      }
+    ],
+    "3.1 Implement `formatTime(date)`, `formatDate(date)`, and `getGreeting(hour)`": [
+      {
+        "executionId": "80eaf763-ac1a-4e85-a879-3a14547bb1ae",
+        "chatSessionId": "sess_ad71bdb4-996f-451f-bb9d-2c6a5e805a7a",
+        "timestamp": 1792207891114
+      },
+      {
+        "executionId": "80eaf763-ac1a-4e85-a879-3a14547bb1ae",
+        "chatSessionId": "sess_ad71bdb4-996f-451f-bb9d-2c6a5e805a7a",
+        "timestamp": 1792207933042
+      }
+    ],
+    "3.3 Implement `initGreeting()`": [
+      {
+        "executionId": "4ed780b4-1fe7-4718-af7a-f26a2f17f813",
+        "chatSessionId": "sess_a68af40b-bf79-43c9-86e9-4044d3e38e42",
+        "timestamp": 1792207960043
+      },
+      {
+        "executionId": "4ed780b4-1fe7-4718-af7a-f26a2f17f813",
+        "chatSessionId": "sess_a68af40b-bf79-43c9-86e9-4044d3e38e42",
+        "timestamp": 1792207995907
+      }
+    ],
+    "3.2 Write property tests for ClockModule": [
+      {
+        "executionId": "8b283e22-e92d-44c9-8dae-27f9e0808872",
+        "chatSessionId": "sess_ee88a5e9-1a25-44e6-a26c-78c9ad479bed",
+        "timestamp": 1792208026012
+      },
+      {
+        "executionId": "8b283e22-e92d-44c9-8dae-27f9e0808872",
+        "chatSessionId": "sess_ee88a5e9-1a25-44e6-a26c-78c9ad479bed",
+        "timestamp": 1792209164346
+      }
+    ],
+    "3. Implement ClockModule (Greeting Widget)": [
+      {
+        "executionId": "8b283e22-e92d-44c9-8dae-27f9e0808872",
+        "chatSessionId": "sess_ee88a5e9-1a25-44e6-a26c-78c9ad479bed",
+        "timestamp": 1792209164630
+      }
+    ],
+    "4.1 Implement pure timer state functions: `formatTimerDisplay`, `timerTick`, `timerStart`, `timerStop`, `timerReset`": [
+      {
+        "executionId": "cb819855-ff7f-4699-807d-605936354f1d",
+        "chatSessionId": "sess_57a0a020-218c-4866-a5aa-f8c6c0e73889",
+        "timestamp": 1792209188618
+      },
+      {
+        "executionId": "cb819855-ff7f-4699-807d-605936354f1d",
+        "chatSessionId": "sess_57a0a020-218c-4866-a5aa-f8c6c0e73889",
+        "timestamp": 1792209274184
+      }
+    ],
+    "4.2 Write property tests for timer state functions": [
+      {
+        "executionId": "af6b4f82-1371-4cf9-aaf7-093db675d396",
+        "chatSessionId": "sess_de8e62cc-b4a4-49b3-8c3d-a7daeb479966",
+        "timestamp": 1792209317586
+      },
+      {
+        "executionId": "af6b4f82-1371-4cf9-aaf7-093db675d396",
+        "chatSessionId": "sess_de8e62cc-b4a4-49b3-8c3d-a7daeb479966",
+        "timestamp": 1792209491062
+      }
+    ],
+    "4.3 Implement `renderTimer(state)` and `initTimer()`": [
+      {
+        "executionId": "7f32eff8-8aab-417a-a823-4e33336b610f",
+        "chatSessionId": "sess_053cc6d5-6498-4fd3-8319-f654b6c0f434",
+        "timestamp": 1792209523848
+      },
+      {
+        "executionId": "7f32eff8-8aab-417a-a823-4e33336b610f",
+        "chatSessionId": "sess_053cc6d5-6498-4fd3-8319-f654b6c0f434",
+        "timestamp": 1792209597535
+      }
+    ],
+    "4.4 Write property tests for button enable/disable state": [
+      {
+        "executionId": "3d67d8ec-b2b6-48b4-92ac-02d487a0f998",
+        "chatSessionId": "sess_acad9f90-c456-425a-911c-6cc782dfdcb6",
+        "timestamp": 1792209610287
+      },
+      {
+        "executionId": "3d67d8ec-b2b6-48b4-92ac-02d487a0f998",
+        "chatSessionId": "sess_acad9f90-c456-425a-911c-6cc782dfdcb6",
+        "timestamp": 1792209823949
+      }
+    ],
+    "4. Implement TimerModule (Focus Timer)": [
+      {
+        "executionId": "3d67d8ec-b2b6-48b4-92ac-02d487a0f998",
+        "chatSessionId": "sess_acad9f90-c456-425a-911c-6cc782dfdcb6",
+        "timestamp": 1792209825609
+      }
+    ],
+    "6.1 Implement pure task operations: `addTask`, `editTask`, `toggleTask`, `deleteTask`": [
+      {
+        "executionId": "5c6440d9-a6ff-4354-96bc-3ba0c1fe65b5",
+        "chatSessionId": "sess_4991587f-6c2d-4ca3-92b2-522eb86b4768",
+        "timestamp": 1792209842575
+      },
+      {
+        "executionId": "5c6440d9-a6ff-4354-96bc-3ba0c1fe65b5",
+        "chatSessionId": "sess_4991587f-6c2d-4ca3-92b2-522eb86b4768",
+        "timestamp": 1792209976376
+      }
+    ],
+    "6.2 Write property tests for task operations": [
+      {
+        "executionId": "3f39ce02-bd43-4182-921e-f385d4d54ffa",
+        "chatSessionId": "sess_567d9297-544f-4246-8405-e53d31d8c7f7",
+        "timestamp": 1792210005409
+      },
+      {
+        "executionId": "3f39ce02-bd43-4182-921e-f385d4d54ffa",
+        "chatSessionId": "sess_567d9297-544f-4246-8405-e53d31d8c7f7",
+        "timestamp": 1792210345810
+      }
+    ],
+    "6.3 Implement `saveTasks`, `loadTasks`": [
+      {
+        "executionId": "ed86e2a6-250b-4e91-bf58-650d136dfe3d",
+        "chatSessionId": "sess_2b83f123-7318-4f83-b06c-bfc35c8eab36",
+        "timestamp": 1792210360327
+      },
+      {
+        "executionId": "ed86e2a6-250b-4e91-bf58-650d136dfe3d",
+        "chatSessionId": "sess_2b83f123-7318-4f83-b06c-bfc35c8eab36",
+        "timestamp": 1792210427808
+      }
+    ],
+    "6.4 Write property tests for task persistence round-trip": [
+      {
+        "executionId": "450ee765-171c-4635-9e86-4509e4ed9554",
+        "chatSessionId": "sess_a0a75125-be48-4056-807f-6b940c107a93",
+        "timestamp": 1792210440646
+      },
+      {
+        "executionId": "450ee765-171c-4635-9e86-4509e4ed9554",
+        "chatSessionId": "sess_a0a75125-be48-4056-807f-6b940c107a93",
+        "timestamp": 1792210560175
+      }
+    ],
+    "6.5 Implement `renderTaskList(tasks, container)` and `initTodoList()`": [
+      {
+        "executionId": "5ceaa995-d5f7-49be-b76f-5feaaec7394e",
+        "chatSessionId": "sess_bb8fdc82-640c-424e-be7e-864da3157a6d",
+        "timestamp": 1792210590041
+      },
+      {
+        "executionId": "5ceaa995-d5f7-49be-b76f-5feaaec7394e",
+        "chatSessionId": "sess_bb8fdc82-640c-424e-be7e-864da3157a6d",
+        "timestamp": 1792210685593
+      }
+    ],
+    "6. Implement TaskModule (Todo List)": [
+      {
+        "executionId": "5ceaa995-d5f7-49be-b76f-5feaaec7394e",
+        "chatSessionId": "sess_bb8fdc82-640c-424e-be7e-864da3157a6d",
+        "timestamp": 1792210685819
+      }
+    ],
+    "7.1 Implement pure link operations: `isValidUrl`, `addLink`, `deleteLink`": [
+      {
+        "executionId": "cec2845a-50d6-4aaa-b750-9896439e3d6f",
+        "chatSessionId": "sess_d88682ec-a11c-4717-baab-14024809f965",
+        "timestamp": 1792210698805
+      },
+      {
+        "executionId": "cec2845a-50d6-4aaa-b750-9896439e3d6f",
+        "chatSessionId": "sess_d88682ec-a11c-4717-baab-14024809f965",
+        "timestamp": 1792211058458
+      }
+    ],
+    "7.2 Write property tests for link operations": [
+      {
+        "executionId": "535448fd-f283-4396-9778-deb8ce68c39d",
+        "chatSessionId": "sess_c93f0217-1f67-4fc0-991d-1a86919da593",
+        "timestamp": 1792211082264
+      },
+      {
+        "executionId": "535448fd-f283-4396-9778-deb8ce68c39d",
+        "chatSessionId": "sess_c93f0217-1f67-4fc0-991d-1a86919da593",
+        "timestamp": 1792211158428
+      }
+    ],
+    "7.3 Implement `saveLinks`, `loadLinks`": [
+      {
+        "executionId": "9a5f58f1-8f4c-4d16-810e-2dfc91b87c16",
+        "chatSessionId": "sess_dae83a8e-6a40-4deb-aa83-10061c6f470f",
+        "timestamp": 1792211168191
+      },
+      {
+        "executionId": "9a5f58f1-8f4c-4d16-810e-2dfc91b87c16",
+        "chatSessionId": "sess_dae83a8e-6a40-4deb-aa83-10061c6f470f",
+        "timestamp": 1792211223852
+      }
+    ],
+    "7.4 Write property tests for link persistence round-trip": [
+      {
+        "executionId": "473f160d-2ddd-4e1e-8313-758701bbca99",
+        "chatSessionId": "sess_e2a8eb66-782c-441a-9da1-3242d6b39905",
+        "timestamp": 1792211232004
+      }
+    ]
+  }
+}
